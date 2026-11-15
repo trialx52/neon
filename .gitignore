@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+.neon_pet_state.json*
+.neon_pet.py.last_good
+.neon_failed_update
+
+# Keep the current distributable; ignore stale build and rollback archives.
+*.zip
+!neon.zip
+*.rollback.tmp
+
+# This workspace also contains a separate nested project.
+trial052-maker-refactored-fiesta/
